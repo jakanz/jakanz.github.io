@@ -1,0 +1,56 @@
+body {
+    background-color: 050505;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    text-rendering: optimizeLegibility;
+    justify-content: center;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+iframe {
+    padding: 8px;
+}
+
+.main { padding: 40px; }
+
+#top > h1,
+#top > p { margin: 0; }
+
+#archives {
+    border-style: double;
+    border-color: 303030;
+    background-color: 111111;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+a:link {
+    color: powderblue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: lightcoral;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
