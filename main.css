@@ -16,9 +16,14 @@ iframe {
   padding-right: 4px;
 }
 
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 p {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 .main { padding: 40px; }
@@ -31,8 +36,23 @@ p {
   border-color: 303030;
   background-color: 111111;
   display: flex;
-  text-align: center;
   justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#projectlist {
+  border-style: dashed;
+  border-color: 303030;
+  background-color: 111111;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 6px;
+}
+
+#projectlist p {
+  margin: 3px;
 }
 
 abbr {
@@ -40,6 +60,12 @@ abbr {
   text-decoration: underline;
   text-decoration-color: #B6B6B6;
   text-decoration-style: dotted;
+}
+
+span i {
+  font-size: 0.67em;
+  color: #777777;
+  margin-top: 0px;
 }
 
 .footer {
