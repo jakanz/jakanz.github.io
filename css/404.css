@@ -9,9 +9,8 @@ body {
 h1 {
   color: #FCD3BB;
   margin: 0;
-  padding-top: 300px
+  padding: 300px auto auto auto
 }
-
 p { margin-top: 6px }
   
 a:link {
@@ -20,13 +19,11 @@ a:link {
   text-decoration: none;
   transition: color 0.5s, background-color 0.5s
 }
-    
 a:visited {
   color: lightcoral;
   background-color: transparent;
   text-decoration: none
 }
-    
 a:hover {
   color: #7871AA;
   background-color: #171717;
