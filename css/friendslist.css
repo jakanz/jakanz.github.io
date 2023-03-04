@@ -1,19 +1,25 @@
+.main { padding: 40px }
+.footer { text-align: center }
+
 body {
   background-color: #050505;
   color: white;
   font-family: 'Segoe UI', sans-serif;
   text-rendering: optimizeLegibility;
-  text-align: center;
-  max-width: 100%
+  justify-content: center;
+  max-width: 100%;
+  width: 800px;
+  margin: 0 auto;
+  padding: 0
 }
 
 h1 {
-  color: #FCD3BB;
   margin: 0;
-  padding-top: 300px
+  color: greenyellow
 }
-p { margin-top: 6px }
-  
+h2 { margin: 0 }
+p { margin: 6px auto 6px auto }
+
 a:link {
   color: powderblue;
   background-color: transparent;

@@ -14,48 +14,23 @@ body {
 }
 
 h1 {
-  background-image: -webkit-linear-gradient(left, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  margin: 0;
+  background-image: -webkit-linear-gradient(left, #9649ad, #2f00a6);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
-h2 { margin: 0 }
-iframe { padding: 8px 4px 8px 4px }
 p { margin: 6px auto 6px auto }
-abbr {
-  cursor: help;
-  text-decoration: underline;
-  text-decoration-color: #B6B6B6;
-  text-decoration-style: dotted
-}
-span i {
-  font-size: 0.67em;
-  color: #777777;
-  margin: 0px auto auto auto
-}
 
-#top > h1,
-#top > p { margin: 0 }
-
-#archives {
-  border-style: double;
-  border-color: 303030;
-  background-color: 111111;
+#mayo {
+  background-color: #3b116850;
+  border-style: dotted;
+  border-color: #B6B6B6;
   display: flex;
-  justify-content: center;
-  margin-top: 1em;
-  margin-bottom: 1em
+  float: right;
+  width: 23%;
+  margin: 5px 10px 0px 10px
 }
-#projectlist {
-  border-style: dashed;
-  border-color: 303030;
-  background-color: 111111;
-  display: flex;
-  justify-content: center;
-  margin-top: 5px;
-  padding: 6px
-}
-#projectlist p { margin: 3px }
 
 a:link {
   color: powderblue;
