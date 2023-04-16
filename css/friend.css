@@ -13,17 +13,34 @@ body {
   padding: 0
 }
 
-h1 {
+/* Headers for friend entries */
+#mayoheader {
+    margin: 0;
+    background-image: -webkit-linear-gradient(left, #9649ad, #2f00a6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+  }
+#papheader {
   margin: 0;
-  background-image: -webkit-linear-gradient(left, #9649ad, #2f00a6);
+  background-image: -webkit-linear-gradient(left, #88074e, #fd074e);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
-p { margin: 6px auto 6px auto }
 
+/* Image attribute modifiers for friend pictures */
 #mayo {
-  background-color: #3b116850;
+    background-color: #3b116850;
+    border-style: dotted;
+    border-color: #B6B6B6;
+    display: flex;
+    float: right;
+    width: 23%;
+    margin: 5px 10px 0px 10px
+  }
+#pappy {
+  background-color: #f8074e50;
   border-style: dotted;
   border-color: #B6B6B6;
   display: flex;
@@ -32,6 +49,7 @@ p { margin: 6px auto 6px auto }
   margin: 5px 10px 0px 10px
 }
 
+p { margin: 6px auto 6px auto }
 a:link {
   color: powderblue;
   background-color: transparent;

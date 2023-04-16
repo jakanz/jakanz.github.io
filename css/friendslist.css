@@ -13,12 +13,20 @@ body {
   padding: 0
 }
 
+br { margin-bottom: 6px }
 h1 {
   margin: 0;
   color: greenyellow
 }
-h2 { margin: 0 }
+h2 { margin: 0 0 3px 0 }
 p { margin: 6px auto 6px auto }
+.note {
+  color: #777777;
+  margin: 0px auto auto auto;
+  font-size: 0.67em;
+  font-style: italic;
+  text-align: center
+}
 
 a:link {
   color: powderblue;
