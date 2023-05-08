@@ -14,13 +14,27 @@ body {
 }
 
 /* Headers for friend entries */
+#alyxheader {
+  margin: 0;
+  background-image: -webkit-linear-gradient(left, #9649ad, #2f00a6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+#centuryyheader {
+  margin: 0;
+  background-image: -webkit-linear-gradient(left, #ff9222, #ffd222);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
 #mayoheader {
-    margin: 0;
-    background-image: -webkit-linear-gradient(left, #9649ad, #2f00a6);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent
-  }
+  margin: 0;
+  background-image: -webkit-linear-gradient(left, #9649ad, #2f00a6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
 #papheader {
   margin: 0;
   background-image: -webkit-linear-gradient(left, #88074e, #fd074e);
@@ -28,19 +42,53 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
+#qwertyheader {
+  margin: 0;
+  background-image: -webkit-linear-gradient(left, #0505af, #0505ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
 
 /* Image attribute modifiers for friend pictures */
+#alyx {
+  background-color: #3b116850;
+  border-style: dotted;
+  border-color: #B6B6B6;
+  display: flex;
+  float: right;
+  width: 23%;
+  margin: 5px 10px 0px 10px
+}
+#centuryy {
+  background-color: #ffb22250;
+  border-style: dotted;
+  border-color: #B6B6B6;
+  display: flex;
+  float: right;
+  width: 23%;
+  margin: 5px 10px 0px 10px
+}
 #mayo {
-    background-color: #3b116850;
-    border-style: dotted;
-    border-color: #B6B6B6;
-    display: flex;
-    float: right;
-    width: 23%;
-    margin: 5px 10px 0px 10px
-  }
+  background-color: #3b116850;
+  border-style: dotted;
+  border-color: #B6B6B6;
+  display: flex;
+  float: right;
+  width: 23%;
+  margin: 5px 10px 0px 10px
+}
 #pappy {
   background-color: #f8074e50;
+  border-style: dotted;
+  border-color: #B6B6B6;
+  display: flex;
+  float: right;
+  width: 23%;
+  margin: 5px 10px 0px 10px
+}
+#qwerty {
+  background-color: #0505ef50;
   border-style: dotted;
   border-color: #B6B6B6;
   display: flex;
