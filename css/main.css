@@ -10,15 +10,13 @@ body {
   max-width: 100%;
   width: 800px;
   margin: 0 auto;
-  padding: 0
-}
+  padding: 0 }
 
 h1 {
   background-image: -webkit-linear-gradient(left, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent
-}
+  -webkit-text-fill-color: transparent }
 h2 { margin: 0 }
 iframe { padding: 8px 4px 8px 4px }
 p { margin: 6px auto 6px auto }
@@ -26,13 +24,11 @@ abbr {
   cursor: help;
   text-decoration: underline;
   text-decoration-color: #B6B6B6;
-  text-decoration-style: dotted
-}
+  text-decoration-style: dotted }
 span i {
   font-size: 0.67em;
   color: #777777;
-  margin: 0px auto auto auto
-}
+  margin: 0px auto auto auto }
 
 #top > h1,
 #top > p { margin: 0 }
@@ -44,8 +40,7 @@ span i {
   display: flex;
   justify-content: center;
   margin-top: 1em;
-  margin-bottom: 1em
-}
+  margin-bottom: 1em }
 #projectlist {
   border-style: dashed;
   border-color: 303030;
@@ -53,21 +48,18 @@ span i {
   display: flex;
   justify-content: center;
   margin-top: 5px;
-  padding: 6px
-}
+  padding: 6px }
 #projectlist p { margin: 3px }
 
 a:link {
   color: powderblue;
   background-color: transparent;
   text-decoration: none;
-  transition: color 0.5s, background-color 0.5s
-}
+  transition: color 0.5s, background-color 0.5s }
 a:visited {
   color: lightcoral;
   background-color: transparent;
-  text-decoration: none
-}
+  text-decoration: none }
 a:hover {
   color: #7871AA;
   background-color: #171717;

@@ -10,14 +10,12 @@ body {
   max-width: 100%;
   width: 800px;
   margin: 0 auto;
-  padding: 0
-}
+  padding: 0 }
 
 br { margin-bottom: 6px }
 h1 {
   margin: 0;
-  color: greenyellow
-}
+  color: greenyellow }
 h2 { margin: 0 0 3px 0 }
 p { margin: 6px auto 6px auto }
 .note {
@@ -25,22 +23,18 @@ p { margin: 6px auto 6px auto }
   margin: 0px auto auto auto;
   font-size: 0.67em;
   font-style: italic;
-  text-align: center
-}
+  text-align: center }
 
 a:link {
   color: powderblue;
   background-color: transparent;
   text-decoration: none;
-  transition: color 0.5s, background-color 0.5s
-}
+  transition: color 0.5s, background-color 0.5s }
 a:visited {
   color: lightcoral;
   background-color: transparent;
-  text-decoration: none
-}
+  text-decoration: none }
 a:hover {
   color: #7871AA;
   background-color: #171717;
-  text-decoration: underline
-}
+  text-decoration: underline }
