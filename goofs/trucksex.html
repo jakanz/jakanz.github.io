@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>The iconic location of the Two Trucks image</title>
+        <base target="_blank">
+        <link href="../css/goofs/trucksex.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="../rsrc/trucksex/truckicon.png" type="image/icon type">
+    </head>
+    <body>
+        <div class="main">
+            <div>
+                <img src="../rsrc/trucksex/trucksex.png" style="position: absolute" id="trucksex">
+                <img src="../rsrc/trucksex/todaysex.png">
+            </div>
+            <input id="slider" type="range" min="0" max="250" value="0" style="width: 600px; margin: 4px 0 0 0">
+            <br><br><a href="https://goo.gl/maps/DcxJxZMKog1QEhzt5">See the original Google Maps view</p>
+        </div>
+        <script>
+            slider.oninput = rangeValue;
+            function rangeValue(value){trucksex.style.opacity = (250 - this.value) / 250}
+        </script>
+    </body>
+</html>
