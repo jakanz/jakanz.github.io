@@ -5,6 +5,22 @@
         <script src="../ruffle/ruffle.js"></script>
     </head>
     <body>
+        <script>
+            window.RufflePlayer = window.RufflePlayer || {};
+            window.RufflePlayer.config = {
+                "autoplay": "on",
+                "backgroundColor": "#333",
+                "wmode": "transparent",
+                "contextMenu": "off"
+            };
+            window.addEventListener("load", (event) => {
+                const ruffle = window.RufflePlayer.newest();
+                const player = ruffle.createPlayer();
+                const container = document.getElementById("container");
+                container.appendChild(player);
+                player.load("./sticksfight.swf");
+            });
+        </script>
         <embed src="./sticksfight.swf" width="1100px" height="800px">
     </body>
 </html>
