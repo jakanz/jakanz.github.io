@@ -2,9 +2,9 @@
     <head>
         <title>Stick Figures Fighting</title>
         <link href="../css/goofs/sticksfight.css" rel="stylesheet" type="text/css">
-        <script src="../ruffle/ruffle.js"></script>
+        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
     </head>
-    <body>
+    <body style="padding: 0; background-color: #333">
         <script>
             window.RufflePlayer = window.RufflePlayer || {};
             window.RufflePlayer.config = {
@@ -19,9 +19,9 @@
                 const player = ruffle.createPlayer();
                 const container = document.getElementById("container");
                 container.appendChild(player);
-                player.load("./sticksfight.swf");
+                player.load("../rsrc/ruffle/sticksfight.swf");
             });
         </script>
-        <embed src="./sticksfight.swf" width="1100px" height="800px">
+        <script src="../rsrc/ruffle/ruffle.js" width="1100px" height="800px" />
     </body>
 </html>
