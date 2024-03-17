@@ -10,39 +10,28 @@ body {
   max-width: 100%;
   width: 800px;
   margin: 0 auto;
-  padding: 0 }
+  padding: 0
+}
 
-hr { border-color: #444444; margin: 11 10 0 0 }
-ul { padding: 0 0 0 10 }
-h2 { margin: 6 0 2 12 }
 iframe { padding: 8px 4px 8px 4px }
 p { margin: 6px auto 6px auto }
 abbr {
   cursor: help;
   text-decoration: underline;
   text-decoration-color: #B6B6B6;
-  text-decoration-style: dotted }
-span {
-  font-size: 0.67em;
-  color: #777777;
-  margin: 0px auto auto auto }
-
-#transrights {
-  background-image: -webkit-linear-gradient(left, #5BCEFA, #F5A9B8, #FFFFFF, #F5A9B8, #5BCEFA);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 1em; }
+  text-decoration-style: dotted
+}
 
 a:link {
   color: powderblue;
   background-color: transparent;
   text-decoration: none;
-  transition: color 0.5s, background-color 0.5s }
+}
 a:visited {
   color: lightcoral;
   background-color: transparent;
-  text-decoration: none }
+  text-decoration: none
+}
 a:hover {
   color: #7871AA;
   background-color: #171717;
